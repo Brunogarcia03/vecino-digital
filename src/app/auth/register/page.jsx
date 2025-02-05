@@ -43,7 +43,7 @@ function RegisterPage() {
       >
         <h1 className="text-primary font-bold text-4xl mb-4">Registrar</h1>
 
-        <label htmlFor="username" className="text-slate-500 mb-2 block text-sm">
+        <label htmlFor="username" className="mb-2 block text-sm">
           Nombre de usuario:
         </label>
         <input
@@ -54,7 +54,7 @@ function RegisterPage() {
               message: "Username is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded block mb-2 bg-[#191a23] text-slate-300 w-full"
           placeholder="TuUsuario123"
         />
 
@@ -64,7 +64,7 @@ function RegisterPage() {
           </span>
         )}
 
-        <label htmlFor="email" className="text-slate-500 mb-2 block text-sm">
+        <label htmlFor="email" className="mb-2 block text-sm">
           Email:
         </label>
         <input
@@ -75,14 +75,14 @@ function RegisterPage() {
               message: "Email is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded block mb-2 bg-[#191a23] text-slate-300 w-full"
           placeholder="usuario@email.com"
         />
         {errors.email && (
           <span className="text-red-500 text-xs">{errors.email.message}</span>
         )}
 
-        <label htmlFor="dni" className="text-slate-500 mb-2 block text-sm">
+        <label htmlFor="dni" className="mb-2 block text-sm">
           Número de DNI:
         </label>
         <input
@@ -93,7 +93,7 @@ function RegisterPage() {
               message: "DNI is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded block mb-2 bg-[#191a23] text-slate-300 w-full"
           placeholder="33449679"
         />
 
@@ -101,7 +101,7 @@ function RegisterPage() {
           <span className="text-red-500 text-xs">{errors.dni.message}</span>
         )}
 
-        <label htmlFor="password" className="text-slate-500 mb-2 block text-sm">
+        <label htmlFor="password" className="mb-2 block text-sm">
           Contraseña:
         </label>
         <input
@@ -112,7 +112,7 @@ function RegisterPage() {
               message: "Password is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded block mb-2 bg-[#191a23] text-slate-300 w-full"
           placeholder="********"
         />
         {errors.password && (
@@ -121,10 +121,7 @@ function RegisterPage() {
           </span>
         )}
 
-        <label
-          htmlFor="confirmPassword"
-          className="text-slate-500 mb-2 block text-sm"
-        >
+        <label htmlFor="confirmPassword" className="mb-2 block text-sm">
           Confirmar Contraseña:
         </label>
         <input
@@ -135,7 +132,7 @@ function RegisterPage() {
               message: "Confirm Password is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded block mb-2 bg-[#191a23] text-slate-300 w-full"
           placeholder="********"
         />
         {errors.confirmPassword && (

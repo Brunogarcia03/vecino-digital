@@ -54,7 +54,7 @@ function LoginPage() {
               message: "Email is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded block mb-2 bg-[#191a23] text-slate-300 w-full"
           placeholder="user@email.com"
         />
 
@@ -73,7 +73,7 @@ function LoginPage() {
               message: "Password is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded block mb-2 bg-[#191a23] text-slate-300 w-full"
           placeholder="******"
         />
 
