@@ -1,11 +1,19 @@
 "use client";
 import { ArrowUpRight } from "lucide-react";
 import { signOut } from "next-auth/react";
+import Image from "next/image";
 
 function DashboardPage() {
   return (
     <section className="h-[calc(100vh-5rem)] flex justify-center items-center">
       <div className="flex flex-col items-center justify-center">
+        <Image
+          src={"/hiring.png"}
+          width={800}
+          height={600}
+          alt="Ilustración"
+          className="w-full h-full mt-5 lg:mt-0 lg:h-auto lg:w-[60%]"
+        />
         <h1 className="text-black text-5xl mb-3">Panel de trabajo</h1>
         <button
           className="inline-flex group py-2 px-10 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent font-medium text-black transition-all duration-100 [box-shadow:5px_5px_rgb(0_172_211)]"
