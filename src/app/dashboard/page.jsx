@@ -8,7 +8,7 @@ function DashboardPage() {
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-black text-5xl mb-3">Panel de trabajo</h1>
         <button
-          className="inline-flex group py-2 px-10 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent font-medium text-black transition-all duration-100 [box-shadow:5px_5px_rgb(185_255_102)]"
+          className="inline-flex group py-2 px-10 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent font-medium text-black transition-all duration-100 [box-shadow:5px_5px_rgb(0_172_211)]"
           onClick={() => signOut()}
         >
           <p>Salir</p>

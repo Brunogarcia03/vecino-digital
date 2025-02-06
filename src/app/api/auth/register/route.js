@@ -40,12 +40,20 @@ export async function POST(request) {
       );
     }
 
+    if (isNaN(data.dni) || data.dni <= 0) {
+      return NextResponse.json(
+        { message: "DNI must be a valid positive number" },
+        { status: 400 }
+      );
+    }
+
     const hashedPassword = await bcrypt.hash(data.password, 10);
     const newUser = await db.user.create({
       data: {
         username: data.username,
         email: data.email,
         password: hashedPassword,
+        dni: parseInt(data.dni, 10),
       },
     });
 

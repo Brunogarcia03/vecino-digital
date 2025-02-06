@@ -20,12 +20,12 @@ function HomePage() {
           </ul>
         </div>
 
-        <button className="inline-flex mt-3 py-4 px-6 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent font-medium text-black transition-all duration-100 [box-shadow:7px_7px_rgb(185_255_102)] hover:translate-x-[3px] hover:translate-y-[3px] hover:[box-shadow:0px_0px_rgb(185_255_102)]">
+        <button className="inline-flex mt-3 py-4 px-6 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent font-medium text-black transition-all duration-100 [box-shadow:7px_7px_rgb(0_172_211)] hover:translate-x-[3px] hover:translate-y-[3px] hover:[box-shadow:0px_0px_rgb(0_172_211)]">
           Más información
         </button>
       </div>
       <Image
-        src={"/header-illustration.webp"}
+        src={"/IllustrationWorking.png"}
         width={600}
         height={500}
         alt="Ilustración"
