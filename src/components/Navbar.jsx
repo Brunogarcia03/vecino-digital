@@ -24,7 +24,7 @@ async function Navbar() {
           src={"/icon.png"}
           width={32}
           height={32}
-          alt="Logo Laboro"
+          alt="Icon Laboro"
         />
       </Link>
 

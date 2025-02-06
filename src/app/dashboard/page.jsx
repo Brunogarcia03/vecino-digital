@@ -12,7 +12,7 @@ function DashboardPage() {
           width={800}
           height={600}
           alt="Ilustración"
-          className="w-full h-full mt-5 lg:mt-0 lg:h-auto lg:w-[60%]"
+          className="w-[60%] h-full mt-5 md:w-[70%] lg:mt-0 lg:w-[60%]"
         />
         <h1 className="text-black text-5xl mb-3">Panel de trabajo</h1>
         <button
